@@ -1,0 +1,23 @@
+app:
+  title: 'Larstone Ltd'
+  name: 'Larstone Ltd'
+  author: 'niden.net'
+  description: 'Larstone Ltd website'
+  keywords: 'larstone, under construction'
+  email: 'info@larstone.cy'
+
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - serve
+
+
+
